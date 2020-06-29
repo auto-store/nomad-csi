@@ -1,5 +1,5 @@
 job "controller" {
-  datacenters = ["london"]
+  datacenters = ["dc1"]
   group "controller" {
     task "plugin" {
       driver = "docker"
