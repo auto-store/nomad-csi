@@ -1,5 +1,5 @@
 job "nodes" {
-  datacenters = ["london"]
+  datacenters = ["dc1"]
   type = "system"
   group "nodes" {
     task "plugin" {
