@@ -32,7 +32,7 @@ job "mysql-server" {
       }
 
       config {
-        image = "hashicorp/mysql-portworx-demo:latest"
+        image = "rberlind/mysql-demo:latest"
         args = ["--datadir", "/srv/mysql"]
 
         port_map {
